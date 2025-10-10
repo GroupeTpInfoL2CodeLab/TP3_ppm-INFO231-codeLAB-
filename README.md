@@ -1,6 +1,32 @@
 # TP3_ppm-INFO231-codeLAB-
 code de manipulation des images ppm
 
+PMViewer - Application de manipulation d'images PPM
+
+## Description
+
+PPMViewer est un programme en C permettant de manipuler des images au format **PPM P3**.  
+Vous pouvez :
+
+- Afficher la taille d'une image.
+- Convertir une image en niveaux de gris.
+- Foncier ou éclaircir les pixels dominants d’une couleur (R, G ou B).
+- Créer le négatif d'une image.
+- Découper une portion d'une image.
+- Appliquer un filtre médian 3x3.
+- Nettoyer l'écran et consulter le manuel intégré.
+
+Le programme fonctionne via une **invite de commandes** interactive `ppmviewer>`.
+
+---
+
+## Compilation
+
+Pour compiler le projet, utilisez le Makefile fourni.  
+
+Ouvrez un terminal dans le dossier du projet et tapez
+#    make
+
 
 /*
 Organisation du travail
@@ -56,3 +82,5 @@ fonction.c 5 : PERROS
 NB : server du fichier test.c present dans le dossier pour realiser votre travail
  
 */
+
+
